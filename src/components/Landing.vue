@@ -5,7 +5,7 @@
     <h2 class="myname">{{Name}}</h2>
     <h2 class="mail">sharadstha7@gmail.com</h2>
     <h2 class="tel">+1(707)-529-0738</h2>
-    <a class="web" href="url">https://sharadportfolio.netlify.com</a>
+    <a class="web" href="https://sharadportfolio.netlify.com">https://sharadportfolio.netlify.com</a>
   </div>
   
   <div class="edu">
