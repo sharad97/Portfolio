@@ -28,8 +28,8 @@
       </section>
       
       <footer class="post__footer">
-        <vue-disqus v-if="commentsReady" shortname="portfolio"
-          :key="post" :identifier="post" :url="`https://vue-blog-demo.netlify.com/read/${post}`"/>
+        <vue-disqus v-if="commentsReady" shortname="blog-p0rvctkx1j"
+          :key="post" :identifier="post" :url="`https://sharadportfolio.netlify.com/portfolio/read/${post}`"/>
       </footer>
     </article>
   </transition>
@@ -56,7 +56,7 @@ export default {
       description: '',
       livedemo: '',
       source: '',
-      commentsReady: false
+      commentsReady: true
     }
   },
 

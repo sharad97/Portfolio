@@ -89,9 +89,10 @@
         </p>
       </div>
     
+      
       <footer class="post__footer">
-        <vue-disqus v-if="commentsReady" shortname="blog"
-          :key="post" :identifier="post" :url="`https://vue-blog-demo.netlify.com/read/${post}`"/>
+        <vue-disqus v-if="commentsReady" shortname="blog-p0rvctkx1j"
+          :key="post" :identifier="post" :url="`https://sharadportfolio.netlify.com/read/${post}`"/>
       </footer>
     </article>
   </transition>
@@ -117,7 +118,7 @@ export default {
       code1: '',
       published: '',
       description: '',
-      commentsReady: false
+      commentsReady: true
     }
   },
 

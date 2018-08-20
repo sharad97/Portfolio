@@ -3,9 +3,9 @@
   <div id="map-container" class="svg-container"></div>
   <div class="self">
     <h2 class="myname">{{Name}}</h2>
-    <h2 class="mail">sharad@business.com</h2>
+    <h2 class="mail">sharadstha7@gmail.com</h2>
     <h2 class="tel">+1(707)-529-0738</h2>
-    <a class="web" href="url">www.businessweb.com</a>
+    <a class="web" href="url">https://sharadportfolio.netlify.com</a>
   </div>
   
   <div class="edu">
@@ -214,7 +214,7 @@ export default {
 
     var tooltip = d3.select('body').append('div')
     .attr('class', 'tooltip')
-    .style('opacit', 0);
+    .style('opacity', 0);
 
     defs.selectAll('pattern')
       .data(circles)
