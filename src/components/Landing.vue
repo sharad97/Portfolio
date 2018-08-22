@@ -229,7 +229,7 @@ export default {
       .attr('y', 0)
       .attr('width', size)
       .attr('height', size)
-      .attr('xlink:href', 'https://i2.wp.com/beebom.com/wp-content/uploads/2016/01/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg');
+      .attr('xlink:href', 'https://s3-us-west-1.amazonaws.com/12webimage/webimage/profpic.jpg');
 
     chart1.selectAll('circle')
       .data(circles)
