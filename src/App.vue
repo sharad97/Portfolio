@@ -13,7 +13,7 @@
             </v-list-tile-content>
           </v-list-tile>
         </router-link>
-        <a v-else v-bind:href="item.link">
+        <a v-else v-bind:href="item.link" target="_blank">
           <v-list-tile v-if="item.action" v-bind:key="item.title" @click="">
             <v-list-tile-action>
               <v-icon style="font-size:24px">{{ item.action }}</v-icon>
@@ -65,7 +65,7 @@
             </v-list-tile-content>
           </v-list-tile>
         </router-link>
-        <a v-else v-bind:href="item.link">
+        <a v-else v-bind:href="item.link" target="_blank">
           <v-list-tile v-if="item.action" v-bind:key="item.title" @click="">
             <v-list-tile-action>
               <v-icon style="font-size:24px">{{ item.action }}</v-icon>
