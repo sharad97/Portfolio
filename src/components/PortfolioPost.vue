@@ -13,10 +13,10 @@
         <blockquote class="post__subtitle">{{ description }}</blockquote>
       </header>
 
-      <section class="post__body rte" v-html="content" target="_blank"></section>
+      <section class="post__body rte" v-html="content"></section>
       <section class="post__body rte">
         <v-card-actions>
-          <v-btn flat color="purple" v-bind:href="source">
+          <v-btn flat color="purple" v-bind:href="source" target="_blank">
             <v-icon left>fa fa-code</v-icon>source
           </v-btn>
         </v-card-actions>
