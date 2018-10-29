@@ -19,7 +19,7 @@
     <br>
     <div class="exp1">
       <ul>
-        <li class="title">Frontend Developer Intern</li>
+        <li class="title">Software Engineer Intern</li>
         <ul>
           <h2 class="company">FileOpen Systems Inc.</h2>
           <h2 class="lenght">May 2018 – July 2018 (3 months)</h2>
@@ -44,7 +44,7 @@
     
     <div class="exp2">
       <ul>
-        <li class="title">Frontend Developer Intern</li>
+        <li class="title">Software Engineer Intern</li>
         <ul>
           <h2 class="company">SEADS-Smart Energy Analytic Disaggregation System</h2>
           <h2 class="lenght">January 2018 – April 2018 (4 months)</h2>
