@@ -22,7 +22,7 @@
         <li class="title">Software Engineer Intern</li>
         <ul>
           <h2 class="company">FileOpen Systems Inc.</h2>
-          <h2 class="lenght">May 2018 – July 2018 (3 months)</h2>
+          <h2 class="lenght">May 2018 – Augugst 2018 (3 months)</h2>
           <br>
           <h3 class="work_desc">Job description: Analyze data and create optimal data visualization using d3.js and integrate into Vue.js.
           </h3>
@@ -44,10 +44,10 @@
     
     <div class="exp2">
       <ul>
-        <li class="title">Software Engineer Intern</li>
+        <li class="title">Software Engineer</li>
         <ul>
           <h2 class="company">SEADS-Smart Energy Analytic Disaggregation System</h2>
-          <h2 class="lenght">January 2018 – April 2018 (4 months)</h2>
+          <h2 class="lenght">January 2018 – June 2018 (5 months)</h2>
           <br>
           <h3 class="project_desc">SEADS is a non-profit organization with the goal to design and build smart sensors powered by intelligent software capable of collecting and disaggregating information regarding energy usage from individual appliances in real-time.
           </h3>
