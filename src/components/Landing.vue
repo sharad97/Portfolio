@@ -22,7 +22,7 @@
         <li class="title">Software Engineer Intern</li>
         <ul>
           <h2 class="company">FileOpen Systems Inc.</h2>
-          <h2 class="lenght">May 2018 – Augugst 2018 (3 months)</h2>
+          <h2 class="lenght">June 2018 – September 2018 (3 months)</h2>
           <br>
           <h3 class="work_desc">Job description: Analyze data and create optimal data visualization using d3.js and integrate into Vue.js.
           </h3>
