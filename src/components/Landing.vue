@@ -16,13 +16,74 @@
   </div>  
   
   <div class="exp" ><h1 class="exper">Experience:</h1> 
+    
     <br>
+
     <div class="exp1">
       <ul>
-        <li class="title">Software Engineer Intern</li>
+        <li class="title">QA Engineer</li>
+        <ul>
+          <h2 class="company">Apple</h2>
+          <h2 class="location">Sunnyvale, CA</h2>
+          <h2 class="lenght">February 2018 – June 2019 (1 Year 5 months)</h2>
+          <br>
+          <h3 class="work_desc">
+          <dd>- Attended daily Scrum stand up meetings.
+          </dd>
+          <dd>- Worked with test leads to understand the requirements for a test environment setup.
+          </dd>
+          <dd>- Participated in weekly project status meeting and updated the testing Progress.
+          </dd> 
+          <dd>- Verified requirements coverage by conducting walk through meetings of Test plan and scenarios with business analysts, project manager and test leads.
+          </dd>
+          <dd>- Assisted test leads with creating and adding new test cases in existing pools of test cases.
+          </dd>
+          <dd>- Performed regression, smoke, functional, black box, white box, gray box, positive, negative, sanity, API and A/B tests manually and using automation tools such as Selenium grid.
+          </dd>
+          <dd>- Performed cross browser testing on PC, Mac, and different devices including iPhone, iPad, iPod touch, iPad, and certified android devices to ensure the applications’ compatibility against different environments. 
+          </dd>
+          <dd>- Tested Analytics to see if it tracks traffic and output information correctly.
+          </dd>
+          </h3>
+        </ul>
+      </ul>
+    </div>
+    
+    <br>
+    
+    <div class="exp2">
+      <ul>
+        <li class="title">Java Software/QA Automation Engineer Trainee</li>
+        <ul>
+          <h2 class="company">Agama Solutions Inc.</h2>
+          <h2 class="location">Fremont, CA</h2>
+          <h2 class="lenght">November 2018 – January 2018 (3 months)</h2>
+          <br>
+          <h3 class="work_desc">
+          <dd>- Received hands-on training on Core Java, Selenium, Bugzilla, Jira, Clear Quest, MySQL, Maven, Jenkins, and SOAP-UI.
+          </dd>
+          <dd>- Learned and worked throughout Software Development Life Cycle using Waterfall and Agile (Scrum) model.
+          </dd>
+          <dd>- Assisted in creating Test Plan, Test Scenarios/ Test Cases, and Execution of Test Cases.
+          </dd> 
+          <dd>- Created MySQL database and write SQL queries.
+          </dd>
+          <dd>- Learned to write effective Defect Reports.
+          </dd>
+          </h3>
+        </ul>
+      </ul>
+    </div>
+    
+    <br>
+    
+    <div class="exp3">
+      <ul>
+        <li class="title">Frontend Developer Intern</li>
         <ul>
           <h2 class="company">FileOpen Systems Inc.</h2>
-          <h2 class="lenght">June 2018 – September 2018 (3 months)</h2>
+          <h2 class="location">Santa Cruz, CA</h2>
+          <h2 class="lenght">June 2017 – August 2017 (3 months)</h2>
           <br>
           <h3 class="work_desc">Job description: Analyze data and create optimal data visualization using d3.js and integrate into Vue.js.
           </h3>
@@ -42,12 +103,14 @@
     
     <br>
     
-    <div class="exp2">
+    <div class="exp4">
       <ul>
-        <li class="title">Software Engineer</li>
+        <li class="title">Frontend Developer Intern</li>
         <ul>
-          <h2 class="company">SEADS Lab UC Santa Cruz</h2>
-          <h2 class="lenght">January 2018 – June 2018 (5 months)</h2>
+          <h2 class="company">SEADS-Smart Energy Analytic Disaggregation System</h2>
+          <h2 class="location">Santa Cruz, CA</h2>
+
+          <h2 class="lenght">January 2017 – April 2017 (4 months)</h2>
           <br>
           <h3 class="project_desc">SEADS is a non-profit organization with the goal to design and build smart sensors powered by intelligent software capable of collecting and disaggregating information regarding energy usage from individual appliances in real-time.
           </h3>
