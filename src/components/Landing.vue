@@ -16,74 +16,13 @@
   </div>  
   
   <div class="exp" ><h1 class="exper">Experience:</h1> 
-    
     <br>
-
     <div class="exp1">
       <ul>
-        <li class="title">QA Engineer</li>
-        <ul>
-          <h2 class="company">Apple</h2>
-          <h2 class="location">Sunnyvale, CA</h2>
-          <h2 class="lenght">February 2018 – June 2019 (1 Year 5 months)</h2>
-          <br>
-          <h3 class="work_desc">
-          <dd>- Attended daily Scrum stand up meetings.
-          </dd>
-          <dd>- Worked with test leads to understand the requirements for a test environment setup.
-          </dd>
-          <dd>- Participated in weekly project status meeting and updated the testing Progress.
-          </dd> 
-          <dd>- Verified requirements coverage by conducting walk through meetings of Test plan and scenarios with business analysts, project manager and test leads.
-          </dd>
-          <dd>- Assisted test leads with creating and adding new test cases in existing pools of test cases.
-          </dd>
-          <dd>- Performed regression, smoke, functional, black box, white box, gray box, positive, negative, sanity, API and A/B tests manually and using automation tools such as Selenium grid.
-          </dd>
-          <dd>- Performed cross browser testing on PC, Mac, and different devices including iPhone, iPad, iPod touch, iPad, and certified android devices to ensure the applications’ compatibility against different environments. 
-          </dd>
-          <dd>- Tested Analytics to see if it tracks traffic and output information correctly.
-          </dd>
-          </h3>
-        </ul>
-      </ul>
-    </div>
-    
-    <br>
-    
-    <div class="exp2">
-      <ul>
-        <li class="title">Java Software/QA Automation Engineer Trainee</li>
-        <ul>
-          <h2 class="company">Agama Solutions Inc.</h2>
-          <h2 class="location">Fremont, CA</h2>
-          <h2 class="lenght">November 2018 – January 2018 (3 months)</h2>
-          <br>
-          <h3 class="work_desc">
-          <dd>- Received hands-on training on Core Java, Selenium, Bugzilla, Jira, Clear Quest, MySQL, Maven, Jenkins, and SOAP-UI.
-          </dd>
-          <dd>- Learned and worked throughout Software Development Life Cycle using Waterfall and Agile (Scrum) model.
-          </dd>
-          <dd>- Assisted in creating Test Plan, Test Scenarios/ Test Cases, and Execution of Test Cases.
-          </dd> 
-          <dd>- Created MySQL database and write SQL queries.
-          </dd>
-          <dd>- Learned to write effective Defect Reports.
-          </dd>
-          </h3>
-        </ul>
-      </ul>
-    </div>
-    
-    <br>
-    
-    <div class="exp3">
-      <ul>
-        <li class="title">Frontend Developer Intern</li>
+        <li class="title">Software Engineer Intern</li>
         <ul>
           <h2 class="company">FileOpen Systems Inc.</h2>
-          <h2 class="location">Santa Cruz, CA</h2>
-          <h2 class="lenght">June 2017 – August 2017 (3 months)</h2>
+          <h2 class="lenght">June 2018 – September 2018 (3 months)</h2>
           <br>
           <h3 class="work_desc">Job description: Analyze data and create optimal data visualization using d3.js and integrate into Vue.js.
           </h3>
@@ -103,14 +42,12 @@
     
     <br>
     
-    <div class="exp4">
+    <div class="exp2">
       <ul>
-        <li class="title">Frontend Developer Intern</li>
+        <li class="title">Software Engineer</li>
         <ul>
-          <h2 class="company">SEADS-Smart Energy Analytic Disaggregation System</h2>
-          <h2 class="location">Santa Cruz, CA</h2>
-
-          <h2 class="lenght">January 2017 – April 2017 (4 months)</h2>
+          <h2 class="company">SEADS Lab UC Santa Cruz</h2>
+          <h2 class="lenght">January 2018 – June 2018 (5 months)</h2>
           <br>
           <h3 class="project_desc">SEADS is a non-profit organization with the goal to design and build smart sensors powered by intelligent software capable of collecting and disaggregating information regarding energy usage from individual appliances in real-time.
           </h3>
@@ -179,7 +116,6 @@
     margin-right:50px;
     
   }
-
   h1{
     font-size: 20px;
     text-decoration: underline;
@@ -194,7 +130,6 @@
     font-weight: normal;
     font-size:16px;
   }
-
 </style>
 
 <style>
@@ -202,29 +137,23 @@
     stroke: #fff;
     shape-rendering: crispEdges;
 }
-
 .bar rect.background {
     fill: #eee;
 }
-
 .bar rect.percent {
     fill: #74c476;
 }
-
 .bar:hover rect.percent {
     fill: #a1d99b;
 }
-
 .bar text {
     font-size: 12px;
     fill: #333;
 }
-
 .axis line {
     stroke: #ccc;
     stroke-width: 1;
 }
-
 line.median {
     stroke: #777;
     stroke-width: 1;
@@ -248,7 +177,6 @@ line.median {
 
 <script>
 import * as d3 from 'd3';
-
 export default {
   name: 'Landing',
   data() {
@@ -266,7 +194,6 @@ export default {
         .attr('width', width)
         .attr('height', height)
         .append('g');
-
     var defs = chart1.append('defs');
     var size = 150;
     var circles = [1];
@@ -274,11 +201,9 @@ export default {
     //  console.log(d3.schemeCategory10);
     var imgId = 'img_';
     var imgUrl = 'url(#img_)';
-
     var tooltip = d3.select('body').append('div')
     .attr('class', 'tooltip')
     .style('opacity', 0);
-
     defs.selectAll('pattern')
       .data(circles)
       .enter()
@@ -293,7 +218,6 @@ export default {
       .attr('width', size)
       .attr('height', size)
       .attr('xlink:href', 'https://s3-us-west-1.amazonaws.com/12webimage/webimage/profpic.jpg');
-
     chart1.selectAll('circle')
       .data(circles)
       .enter()
@@ -318,21 +242,16 @@ export default {
           .duration(500)
           .style('opacity', 0);
       });
-
     var width1 = parseInt(d3.select('#chart').style('width'), 10);
     width1 = width1 - margin.left - margin.right;
-
     var barHeight = 20;
     var spacing = 3;
     var percent = d3.format('%');
-
     // scales and axes
     var x = d3.scale.linear()
         .range([0, width1])
         .domain([0, 10]); // hard-coding this because I know the data
-
     var y = d3.scale.ordinal();
-
     var xAxis = d3.svg.axis()
         .scale(x)
         .ticks(4);
@@ -341,7 +260,6 @@ export default {
         .style('width', (width1 + margin.left + margin.right) + 'px')
         .append('g')
         .attr('transform', 'translate(' + [margin.left, margin.top] + ')');
-
     var data = [
       {
         'Name': 'd3.js',
@@ -359,43 +277,34 @@ export default {
         'Total': 7
       }
     ];
-
     data.forEach(function(d, i) {
       d.Name = d.Name;
       d.percent = d.Total;
       return d;
     });
-
     y.domain(d3.range(data.length)).rangeBands([0, data.length * barHeight]);
-
         // set height based on data
     height = y.rangeExtent()[1];
     d3.select(chart.node().parentNode)
             .style('height', (height + margin.top + margin.bottom) + 'px')
-
         // render the chart
-
         // add top and bottom axes
     chart.append('g')
             .attr('class', 'x axis top')
             .call(xAxis.orient('top'));
-
     chart.append('g')
             .attr('class', 'x axis bottom')
             .attr('transform', 'translate(0,' + height + ')')
             .call(xAxis.orient('bottom'));
-
     var bars = chart.selectAll('.bar')
           .data(data)
           .enter().append('g')
           .attr('class', 'bar')
           .attr('transform', function(d, i) { return 'translate(0,' + y(i) + ')'; });
-
     bars.append('rect')
             .attr('class', 'background')
             .attr('height', y.rangeBand())
             .attr('width', width1);
-
     bars.append('rect')
             .attr('class', 'percent')
             .attr('height', y.rangeBand())
@@ -413,52 +322,40 @@ export default {
                 .duration(500)
                 .style('opacity', 0);
             });
-
     bars.append('text')
             .text(function(d) { return d.Name; })
             .attr('class', 'name')
             .attr('y', y.rangeBand() - 5)
             .attr('x', spacing);
-
         // add median ticks
     var median = d3.median(data, function(d) { return d.percent; });
-
     d3.select('span.median').text(percent(median));
-
     bars.append('line')
             .attr('class', 'median')
             .attr('x1', x(median))
             .attr('x2', x(median))
             .attr('y1', 1)
             .attr('y2', y.rangeBand() - 1);
-
     // resize
     d3.select(window).on('resize', resize);
-
     function resize() {
         // update width
       width1 = parseInt(d3.select('#chart').style('width'), 10);
       width1 = width1 - margin.left - margin.right;
-
         // resize the chart
       x.range([0, width1]);
       d3.select(chart.node().parentNode)
             .style('height', (y.rangeExtent()[1] + margin.top + margin.bottom) + 'px')
             .style('width', (width1 + margin.left + margin.right) + 'px');
-
       chart.selectAll('rect.background')
             .attr('width', width1);
-
       chart.selectAll('rect.percent')
             .attr('width', function(d) { return x(d.percent); });
-
         // update median ticks
       var median = d3.median(chart.selectAll('.bar').data(), function(d) { return d.percent; });
-
       chart.selectAll('line.median')
             .attr('x1', x(median))
             .attr('x2', x(median));
-
         // update axes
       chart.select('.x.axis.top').call(xAxis.orient('top'));
       chart.select('.x.axis.bottom').call(xAxis.orient('bottom'));
