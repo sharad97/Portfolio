@@ -27,7 +27,7 @@
           <h2 class="location">Sunnyvale, CA</h2>
           <h2 class="lenght">February 2018 – June 2019 (1 Year 5 months)</h2>
           <br>
-          <h3 class="work_desc">
+          <h3 class="work_desc"></h3>
           <dd>- Attended daily Scrum stand up meetings.
           </dd>
           <dd>- Worked with test leads to understand the requirements for a test environment setup.
@@ -44,7 +44,6 @@
           </dd>
           <dd>- Tested Analytics to see if it tracks traffic and output information correctly.
           </dd>
-          </h3>
         </ul>
       </ul>
     </div>
@@ -59,7 +58,7 @@
           <h2 class="location">Fremont, CA</h2>
           <h2 class="lenght">November 2018 – January 2018 (3 months)</h2>
           <br>
-          <h3 class="work_desc">
+          <h3 class="work_desc"></h3>
           <dd>- Received hands-on training on Core Java, Selenium, Bugzilla, Jira, Clear Quest, MySQL, Maven, Jenkins, and SOAP-UI.
           </dd>
           <dd>- Learned and worked throughout Software Development Life Cycle using Waterfall and Agile (Scrum) model.
@@ -70,7 +69,6 @@
           </dd>
           <dd>- Learned to write effective Defect Reports.
           </dd>
-          </h3>
         </ul>
       </ul>
     </div>
@@ -91,12 +89,11 @@
           <h3 class="project_desc">Worked on a separate link in the FileOpen website that allows authors, individuals who send their files to FileOpen to be encrypted and shared via a separate link, to see the analytics behind the file being shared.
           </h3>
           <br>
-          <h3 class="work_desc">Accomplished:
+          <h3 class="work_desc">Accomplished:</h3>
           <dd>- Created an interactive geomap visualization which shows the locations of where users opened the document. When a user opens a file it will show on the map. Each user has a different color and displayed as circles (nodes) on the map. It has a search function which filters users. I also added force simulation, drag, and zoom functionality for better visualization. It also has the tooltip which shows information about the user when the mouse is move over the nodes. Data is pulled from API which is in JSON file.
           </dd>
           <dd>- Created an interactive cluster bubble chart which shows the number of times a document was opened per user and categorizes it by email domain. Data is pulled from API which is in JSON file. It has force simulation, drag, and zoom functionality for better visualization. I added on-click event button which calls a function to categorize user by email domain. I used force simulation while categorizing user which make more satisfying for client and interactive. I also added a dynamic legend, tooltips, and hint for more information.
           </dd>
-          </h3>
         </ul>
       </ul>
     </div>
