@@ -27,6 +27,9 @@
           <h2 class="location">Sunnyvale, CA</h2>
           <h2 class="lenght">February 2018 – June 2019 (1 Year 5 months)</h2>
           <br>
+          <h3 class="project_desc">Worked closely with manager, test leads, testers, business analyst, and developer to ensure no bug exists in Apple's website and quality remains same throughout different browsers and devices. Most projects were focused on the main events of Apple. 
+          </h3>
+          <br>
           <h3 class="work_desc"></h3>
           <dd>- Attended daily Scrum stand up meetings.
           </dd>
@@ -77,7 +80,7 @@
     
     <div class="exp3">
       <ul>
-        <li class="title">Frontend Developer Intern</li>
+        <li class="title">Software Engineer Intern</li>
         <ul>
           <h2 class="company">FileOpen Systems Inc.</h2>
           <h2 class="location">Santa Cruz, CA</h2>
@@ -102,7 +105,7 @@
     
     <div class="exp4">
       <ul>
-        <li class="title">Frontend Developer Intern</li>
+        <li class="title">Software Engineer Intern</li>
         <ul>
           <h2 class="company">SEADS-Smart Energy Analytic Disaggregation System</h2>
           <h2 class="location">Santa Cruz, CA</h2>
@@ -305,7 +308,8 @@ export default {
           .duration(200)
           .style('opacity', 0.9);
         tooltip.html('<table>' +
-                     "<tr><td align='left'>About Me</td><td align='center'>:<td align='right'>" + 'I love programming' + '</td></tr>' + '</table>')
+                     "<tr><td align='left'>About Me</td><td align='center'>:</td><td align='right'>I love programming. Passion for learning new technologies and self-motivated Computer Science undergrad with 2+ years of progressive IT experience as an Automation/Manual tester and a Software Developer with strong background in developing Website, Data Visualization, Automation Scripts, Automation framework, and performing Functional and Regression Testing.</td></tr>" +
+                     "<tr><td align='left'>Website Created By</td><td align='center'>:</td><td align='right'>Sharad Shrestha</td></tr>" + '</table>')
           .style('left', (d3.event.pageX + 0) + 'px')
           .style('top', (d3.event.pageY - 28) + 'px');
       })
@@ -353,6 +357,31 @@ export default {
         'Name': 'C++',
         'ID': '3',
         'Total': 7
+      },
+      {
+        'Name': 'C#',
+        'ID': '4',
+        'Total': 7
+      },
+      {
+        'Name': 'Java',
+        'ID': '5',
+        'Total': 8
+      },
+      {
+        'Name': 'Selenium',
+        'ID': '6',
+        'Total': 8
+      },
+      {
+        'Name': 'Radar',
+        'ID': '7',
+        'Total': 10
+      },
+      {
+        'Name': 'Jira',
+        'ID': '7',
+        'Total': 9
       }
     ];
 

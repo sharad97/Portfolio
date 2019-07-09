@@ -1,8 +1,8 @@
 {
-  "name": "vue-blog-demo",
+  "name": "myPortfolio",
   "version": "1.0.0",
-  "description": "A Vue.js blog demo to demonstrate proper decoupling of api data and swapping of resources/providers",
-  "author": "Nicolas Udy <dev@udy.io>",
+  "description": "This is my portfolio",
+  "author": "sharad",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -52,7 +52,7 @@
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
     "http-proxy-middleware": "^0.17.3",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.9.2",
     "opn": "^5.1.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
