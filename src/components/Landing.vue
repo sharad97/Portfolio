@@ -25,7 +25,7 @@
         <ul>
           <h2 class="company">Apple</h2>
           <h2 class="location">Sunnyvale, CA</h2>
-          <h2 class="lenght">February 2018 – June 2019 (1 Year 5 months)</h2>
+          <h2 class="lenght">February 2018 – Current (1 Year 7 months)</h2>
           <br>
           <h3 class="project_desc">Worked closely with manager, test leads, testers, business analyst, and developer to ensure no bug exists in Apple's website and quality remains same throughout different browsers and devices. Most projects were focused on the main events of Apple. 
           </h3>
