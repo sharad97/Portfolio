@@ -59,7 +59,7 @@
         <ul>
           <h2 class="company">Agama Solutions Inc.</h2>
           <h2 class="location">Fremont, CA</h2>
-          <h2 class="lenght">November 2018 – January 2018 (3 months)</h2>
+          <h2 class="lenght">November 2017 – January 2018 (3 months)</h2>
           <br>
           <h3 class="work_desc"></h3>
           <dd>- Received hands-on training on Core Java, Selenium, Bugzilla, Jira, Clear Quest, MySQL, Maven, Jenkins, and SOAP-UI.
