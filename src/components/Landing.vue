@@ -70,7 +70,7 @@
           </dd> 
           <dd>- Write SQL queries.
           </dd>
-          <dd>- Write effective Defect Reports.
+          <dd>- Filled effective Defect Reports.
           </dd>
         </ul>
       </ul>
