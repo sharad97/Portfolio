@@ -25,7 +25,7 @@
         <ul>
           <h2 class="company">Apple</h2>
           <h2 class="location">Sunnyvale, CA</h2>
-          <h2 class="lenght">February 2018 – Current (1 Year 7 months)</h2>
+          <h2 class="lenght">February 2018 – Current (1 Year 8 months)</h2>
           <br>
           <h3 class="project_desc">Worked closely with manager, test leads, testers, business analyst, and developer to ensure no bug exists in Apple's website and quality remains same throughout different browsers and devices. Most projects were focused on the main events of Apple. 
           </h3>
@@ -55,22 +55,22 @@
     
     <div class="exp2">
       <ul>
-        <li class="title">Java Software/QA Automation Engineer Trainee</li>
+        <li class="title">Software Development Engineer in Test</li>
         <ul>
           <h2 class="company">Agama Solutions Inc.</h2>
           <h2 class="location">Fremont, CA</h2>
-          <h2 class="lenght">November 2017 – January 2018 (3 months)</h2>
+          <h2 class="lenght">November 2016 – January 2018 (1 Year 3 months)</h2>
           <br>
           <h3 class="work_desc"></h3>
-          <dd>- Received hands-on training on Core Java, Selenium, Bugzilla, Jira, Clear Quest, MySQL, Maven, Jenkins, and SOAP-UI.
+          <dd>- Received hands-on experience  on Core Java, Selenium, Bugzilla, Jira, Clear Quest, MySQL, Maven, Jenkins, and SOAP-UI.
           </dd>
-          <dd>- Learned and worked throughout Software Development Life Cycle using Waterfall and Agile (Scrum) model.
+          <dd>- Worked throughout Software Development Life Cycle using Agile (Scrum) model.
           </dd>
           <dd>- Assisted in creating Test Plan, Test Scenarios/ Test Cases, and Execution of Test Cases.
           </dd> 
-          <dd>- Created MySQL database and write SQL queries.
+          <dd>- Write SQL queries.
           </dd>
-          <dd>- Learned to write effective Defect Reports.
+          <dd>- Write effective Defect Reports.
           </dd>
         </ul>
       </ul>
@@ -84,7 +84,7 @@
         <ul>
           <h2 class="company">FileOpen Systems Inc.</h2>
           <h2 class="location">Santa Cruz, CA</h2>
-          <h2 class="lenght">June 2017 – August 2017 (3 months)</h2>
+          <h2 class="lenght">June 2016 – August 2016 (3 months)</h2>
           <br>
           <h3 class="work_desc">Job description: Analyze data and create optimal data visualization using d3.js and integrate into Vue.js.
           </h3>
@@ -109,7 +109,7 @@
         <ul>
           <h2 class="company">SEADS-Smart Energy Analytic Disaggregation System</h2>
           <h2 class="location">Santa Cruz, CA</h2>
-          <h2 class="lenght">January 2017 – April 2017 (4 months)</h2>
+          <h2 class="lenght">January 2016 – April 2016 (4 months)</h2>
           <br>
           <h3 class="project_desc">SEADS is a non-profit organization with the goal to design and build smart sensors powered by intelligent software capable of collecting and disaggregating information regarding energy usage from individual appliances in real-time.
           </h3>
