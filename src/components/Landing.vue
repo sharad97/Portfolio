@@ -21,7 +21,7 @@
 
     <div class="exp1">
       <ul>
-        <li class="title">QA Engineer</li>
+        <li class="title">Software QA Engineer</li>
         <ul>
           <h2 class="company">Apple</h2>
           <h2 class="location">Sunnyvale, CA</h2>
